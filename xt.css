@@ -1,8 +1,8 @@
 /*
 * @Author: 1
 * @Date:   2019-06-03 10:15:21
-* @Last Modified by:   1
-* @Last Modified time: 2019-06-10 19:13:19
+* @Last Modified by:   xuting
+* @Last Modified time: 2019-06-11 19:40:02
 */
 *{
 	margin:0 auto;
@@ -79,8 +79,11 @@
  .red ul li{
  	display:inline-block;
  	height:30px;
- 	width:130px;
+ 	width:95px;
  	text-align:center;
+ 	margin-right:35px;
+ 	line-height:30px;
+
  }
  .red ul li:hover{
  	background-color:#fd0304;
@@ -97,6 +100,9 @@
  	background-color:#fbfbfb;
  	width:1200px;
  	height:70px;
+ }
+ .small >div{
+ line-height:70px;
  }
  .big{
  	margin:0 auto;
@@ -120,6 +126,9 @@
 	width:150px;
 	height:555px;
 	background-color:#ffffff;
+}
+.list p{
+	margin-left:30px;
 }
 .list p a{
 	text-decoration:none;
