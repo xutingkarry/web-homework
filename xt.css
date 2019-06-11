@@ -164,23 +164,25 @@
 	background-color:#2e2e2e;
 }
 .ul{
-	width:1220px;
+	width:1200px;
 	border-bottom:1px solid #656565;
 }
-.ul ul li{
+.ul ul{
 	display:inline-block;
-	width:240px;
-	height:30px;
+	line-height:30px;
 }
-.xt li a{
-	font-size:12px;
-	text-decoration:none;
-	color:#ffffff;
+.ul ul+ul{
+	margin-left:220px;
 }
-.ul ul+ul li a{
-	text-decoration:none;
-	color:#ffffff;
+
+.ul ul li{
+	list-style-type:none;
+
+}
+.ul ul li a{
 	font-size:10px;
+	text-decoration:none;
+	color:#ffffff;
 }
 .lasttest{
 	text-align:center;
